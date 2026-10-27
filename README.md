@@ -18,8 +18,6 @@ Ambiente conteinerizado para recolha de telemetria, armazenamento em séries tem
 
 ## 🖥️ Demonstração do Painel
 
-> Insere aqui a captura de ecrã do teu Grafana em execução.
-> Guarda a imagem com o nome `dashboard.png` na raiz do repositório.
 
 ![Visão Geral do Grafana](dashboard.png)
 
@@ -50,7 +48,7 @@ docker compose ps
 
 ### 📈 Configuração do Dashboard no Grafana
 
-1. Aceder a `http://localhost:3000` e iniciar sessão.
+1. Acessar  `http://localhost:3000` e iniciar sessão.
 2. Navegar até **Connections > Data Sources > Add data source** e selecionar **Prometheus**.
 3. No campo **Prometheus server URL**, definir `http://prometheus:9090` (resolução interna de rede Docker) e clicar em **Save & Test**.
 4. Ir ao menu lateral em **Dashboards > New > Import**, inserir o ID `1860` e clicar em **Load**.
